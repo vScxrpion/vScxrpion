@@ -1,40 +1,8 @@
---[[
+-- 
+-- 
 
- ____               _       _                      __                  _                      ____   __   __    ____     ____    ___    ____    ____    ___    ___    _   _ 
- |  _ \    ___    __| |   __| |  _   _   _ __      / _|  _   _    ___  | | __   ___   _ __    | __ )  \ \ / /   / ___|   / ___|  / _ \  |  _ \  |  _ \  |_ _|  / _ \  | \ | |
- | |_) |  / _ \  / _` |  / _` | | | | | | '_ \    | |_  | | | |  / __| | |/ /  / _ \ | '__|   |  _ \   \ V /    \___ \  | |     | | | | | |_) | | |_) |  | |  | | | | |  \| |
- |  _ <  |  __/ | (_| | | (_| | | |_| | | | | |   |  _| | |_| | | (__  |   <  |  __/ | |      | |_) |   | |      ___) | | |___  | |_| | |  _ <  |  __/   | |  | |_| | | |\  |
- |_| \_\  \___|  \__,_|  \__,_|  \__, | |_| |_|   |_|    \__,_|  \___| |_|\_\  \___| |_|      |____/    |_|     |____/   \____|  \___/  |_| \_\ |_|     |___|  \___/  |_| \_|
-                                 |___/                                                                                                                                       
+-- REDDYNFUCKER
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-]]--
--- v 1.4
 local Screen = Instance.new("ScreenGui")
 local reddyneocaralho = Instance.new("Frame")
 local Acao2 = Instance.new("TextButton")
@@ -50,6 +18,10 @@ local TextLabel = Instance.new("TextLabel")
 local UIGradient = Instance.new("UIGradient")
 local TextLabel_2 = Instance.new("TextLabel")
 local UIGradient_2 = Instance.new("UIGradient")
+local qnt = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local qnt2 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
 
 --Properties:
 
@@ -157,7 +129,7 @@ TextLabel_2.Position = UDim2.new(0.754327774, 0, 0.482993782, 0)
 TextLabel_2.Rotation = 7.000
 TextLabel_2.Size = UDim2.new(0.121497661, 0, 0.0621343777, 0)
 TextLabel_2.Font = Enum.Font.Gotham
-TextLabel_2.Text = "v1.4"
+TextLabel_2.Text = "v1.4.1"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -166,9 +138,45 @@ TextLabel_2.TextWrapped = true
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 12, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
 UIGradient_2.Parent = TextLabel_2
 
+qnt.Name = "qnt"
+qnt.Parent = Screen
+qnt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+qnt.BackgroundTransparency = 1.000
+qnt.BorderColor3 = Color3.fromRGB(0, 0, 0)
+qnt.BorderSizePixel = 0
+qnt.Position = UDim2.new(0.526256919, 0, 0.651746869, 0)
+qnt.Size = UDim2.new(0.194075614, 0, 0.0951919556, 0)
+qnt.Font = Enum.Font.Gotham
+qnt.Text = "quem ta ganhando: nil"
+qnt.TextColor3 = Color3.fromRGB(255, 255, 255)
+qnt.TextScaled = true
+qnt.TextSize = 14.000
+qnt.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 5, 9)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Parent = qnt
+
+qnt2.Name = "qnt2"
+qnt2.Parent = Screen
+qnt2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+qnt2.BackgroundTransparency = 1.000
+qnt2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+qnt2.BorderSizePixel = 0
+qnt2.Position = UDim2.new(0.488070518, 0, 0.788481534, 0)
+qnt2.Size = UDim2.new(0.23226203, 0, 0.08689031, 0)
+qnt2.Font = Enum.Font.Gotham
+qnt2.Text = "votos no seu escolhdo: 0"
+qnt2.TextColor3 = Color3.fromRGB(255, 255, 255)
+qnt2.TextScaled = true
+qnt2.TextSize = 14.000
+qnt2.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_4.Parent = qnt2
+
 -- Scripts:
 
-local function DUYLTS_fake_script() -- Screen.LocalScript 
+local function CDPP_fake_script() -- Screen.LocalScript 
 	local script = Instance.new('LocalScript', Screen)
 
 	--
@@ -196,6 +204,8 @@ local function DUYLTS_fake_script() -- Screen.LocalScript
 	script.Parent.reddyneocaralho.Acao2.MouseButton1Click:Connect(function()
 			local evento = game.ReplicatedStorage:WaitForChild("votacao_para_ficar")
 			local pessoa = script.Parent.reddyneocaralho.TextBox.Text
+		    script.Parent.qnt2.Text = "votos no seu escolhido: "..game.ReplicatedStorage.Player_roca[pessoa].Value
+		script.Parent.qnt.Text = "quem ta ganhando: "
 		while wait(0.3) do
 			evento:FireServer(pessoa)
 		end
@@ -204,5 +214,6 @@ local function DUYLTS_fake_script() -- Screen.LocalScript
 	script.Parent.reddyneocaralho.Lag.MouseButton1Click:Connect(function()
 		
 	end)
+	--
 end
-coroutine.wrap(DUYLTS_fake_script)()
+coroutine.wrap(CDPP_fake_script)()
