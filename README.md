@@ -1,151 +1,286 @@
 -- Gui to Lua
--- BY SCORPION
+-- Version: 3.2
 
--- REDDYN FUCKER
+-- Instances:
 
-local Screen = Instance.new("ScreenGui")
-local reddyneocaralho = Instance.new("Frame")
-local Musica = Instance.new("TextButton")
-local UICorner = Instance.new("UICorner")
-local Lag = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
-local UICorner_3 = Instance.new("UICorner")
-local TextBox = Instance.new("TextBox")
+local SCpl = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Botao1 = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
-local UIGradient = Instance.new("UIGradient")
+local BotaoDesc = Instance.new("Frame")
 local TextLabel_2 = Instance.new("TextLabel")
-local UIGradient_2 = Instance.new("UIGradient")
+local Botao2 = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local Botao3 = Instance.new("TextButton")
+local msg = Instance.new("TextBox")
+local Botao4 = Instance.new("TextButton")
+local plr = Instance.new("TextBox")
+local Botao5 = Instance.new("TextButton")
 
 --Properties:
 
-Screen.Name = "Screen"
-Screen.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-Screen.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+SCpl.Name = "SCpl"
+SCpl.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SCpl.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-reddyneocaralho.Name = "reddyneocaralho"
-reddyneocaralho.Parent = Screen
-reddyneocaralho.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
-reddyneocaralho.BackgroundTransparency = 0.300
-reddyneocaralho.BorderColor3 = Color3.fromRGB(0, 0, 0)
-reddyneocaralho.BorderSizePixel = 2
-reddyneocaralho.Position = UDim2.new(0.721093655, 0, 0.612244904, 0)
-reddyneocaralho.Size = UDim2.new(0.188215792, 0, 0.318367332, 0)
+Frame.Parent = SCpl
+Frame.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Frame.BackgroundTransparency = 0.450
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(0.536274076, 0, 0.128099173, 0)
+Frame.Size = UDim2.new(0.263852239, 0, 0.413223147, 0)
 
-Musica.Name = "Musica"
-Musica.Parent = reddyneocaralho
-Musica.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
-Musica.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Musica.BorderSizePixel = 0
-Musica.Position = UDim2.new(0.0705003738, 0, 0.256410271, 0)
-Musica.Size = UDim2.new(0.346606374, 0, 0.134615391, 0)
-Musica.Font = Enum.Font.SourceSans
-Musica.Text = "Musica midia"
-Musica.TextColor3 = Color3.fromRGB(0, 0, 0)
-Musica.TextScaled = true
-Musica.TextSize = 14.000
-Musica.TextWrapped = true
+Botao1.Name = "Botao1"
+Botao1.Parent = Frame
+Botao1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Botao1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Botao1.BorderSizePixel = 0
+Botao1.Position = UDim2.new(0.109999999, 0, 0.0599999987, 0)
+Botao1.Size = UDim2.new(0.333333343, 0, 0.155000001, 0)
+Botao1.Font = Enum.Font.SourceSans
+Botao1.Text = "Votos Internos"
+Botao1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Botao1.TextScaled = true
+Botao1.TextSize = 14.000
+Botao1.TextWrapped = true
 
-UICorner.Parent = Musica
-
-Lag.Name = "Lag"
-Lag.Parent = reddyneocaralho
-Lag.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
-Lag.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Lag.BorderSizePixel = 0
-Lag.Position = UDim2.new(0.0705003738, 0, 0.0736635625, 0)
-Lag.Size = UDim2.new(0.346606523, 0, 0.111799218, 0)
-Lag.Font = Enum.Font.SourceSans
-Lag.Text = "LagarServidor"
-Lag.TextColor3 = Color3.fromRGB(0, 0, 0)
-Lag.TextScaled = true
-Lag.TextSize = 14.000
-Lag.TextWrapped = true
-
-UICorner_2.Parent = Lag
-
-UICorner_3.Parent = reddyneocaralho
-
-TextBox.Parent = reddyneocaralho
-TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 127)
-TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextBox.BorderSizePixel = 0
-TextBox.Position = UDim2.new(0.418762594, 0, 0.801282048, 0)
-TextBox.Size = UDim2.new(0.502515137, 0, 0.15384616, 0)
-TextBox.Font = Enum.Font.SourceSans
-TextBox.PlaceholderText = "ID musica"
-TextBox.Text = "ID musica"
-TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextBox.TextScaled = true
-TextBox.TextSize = 14.000
-TextBox.TextWrapped = true
-
-TextLabel.Parent = Screen
+TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.689422011, 0, 0.517053008, 0)
-TextLabel.Rotation = 7.000
-TextLabel.Size = UDim2.new(0.251309127, 0, 0.0940159038, 0)
-TextLabel.Font = Enum.Font.Gotham
-TextLabel.Text = "Reddyn fucker xD"
+TextLabel.Position = UDim2.new(0.186666667, 0, -0.25, 0)
+TextLabel.Size = UDim2.new(0.666666687, 0, 0.25, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Reddyn Fucker xD v0.1"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
+TextLabel.TextStrokeTransparency = 0.000
 TextLabel.TextWrapped = true
+TextLabel.TextYAlignment = Enum.TextYAlignment.Bottom
 
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 12, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient.Parent = TextLabel
+BotaoDesc.Name = "BotaoDesc"
+BotaoDesc.Parent = Frame
+BotaoDesc.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+BotaoDesc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BotaoDesc.BorderSizePixel = 0
+BotaoDesc.Position = UDim2.new(1.08333337, 0, 0, 0)
+BotaoDesc.Size = UDim2.new(0.720000029, 0, 0.610000014, 0)
+BotaoDesc.Visible = false
 
-TextLabel_2.Parent = Screen
+TextLabel_2.Parent = BotaoDesc
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 1.000
 TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.754327774, 0, 0.482993782, 0)
-TextLabel_2.Rotation = 7.000
-TextLabel_2.Size = UDim2.new(0.121497661, 0, 0.0621343777, 0)
-TextLabel_2.Font = Enum.Font.Gotham
-TextLabel_2.Text = "v1.4.2"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 12, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_2.Parent = TextLabel_2
+Botao2.Name = "Botao2"
+Botao2.Parent = Frame
+Botao2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Botao2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Botao2.BorderSizePixel = 0
+Botao2.Position = UDim2.new(0.553333342, 0, 0.0599999987, 0)
+Botao2.Size = UDim2.new(0.333333343, 0, 0.155000001, 0)
+Botao2.Font = Enum.Font.SourceSans
+Botao2.Text = "Musicas"
+Botao2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Botao2.TextScaled = true
+Botao2.TextSize = 14.000
+Botao2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 1, 0)
+TextLabel_3.Size = UDim2.new(1, 0, 0.25, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Feito por / Made by: @vscxrpion -> Discord"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextStrokeTransparency = 0.000
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextYAlignment = Enum.TextYAlignment.Top
+
+Botao3.Name = "Botao3"
+Botao3.Parent = Frame
+Botao3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Botao3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Botao3.BorderSizePixel = 0
+Botao3.Position = UDim2.new(0.646666646, 0, 0.814999998, 0)
+Botao3.Size = UDim2.new(0.333333343, 0, 0.155000001, 0)
+Botao3.Font = Enum.Font.SourceSans
+Botao3.Text = "Enviar mensagem ao servidor"
+Botao3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Botao3.TextScaled = true
+Botao3.TextSize = 14.000
+Botao3.TextWrapped = true
+
+msg.Name = "msg"
+msg.Parent = Frame
+msg.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+msg.BorderColor3 = Color3.fromRGB(0, 0, 0)
+msg.BorderSizePixel = 0
+msg.Position = UDim2.new(0.646666646, 0, 0.629999995, 0)
+msg.Size = UDim2.new(0.333333343, 0, 0.144999996, 0)
+msg.Font = Enum.Font.SourceSans
+msg.PlaceholderText = "Mensagem"
+msg.Text = "Mensagem"
+msg.TextColor3 = Color3.fromRGB(255, 255, 255)
+msg.TextScaled = true
+msg.TextSize = 14.000
+msg.TextWrapped = true
+
+Botao4.Name = "Botao4"
+Botao4.Parent = Frame
+Botao4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Botao4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Botao4.BorderSizePixel = 0
+Botao4.Position = UDim2.new(0.0233333334, 0, 0.814999998, 0)
+Botao4.Size = UDim2.new(0.333333343, 0, 0.155000001, 0)
+Botao4.Font = Enum.Font.SourceSans
+Botao4.Text = "Muitos Votos"
+Botao4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Botao4.TextScaled = true
+Botao4.TextSize = 14.000
+Botao4.TextWrapped = true
+
+plr.Name = "plr"
+plr.Parent = Frame
+plr.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+plr.BorderColor3 = Color3.fromRGB(0, 0, 0)
+plr.BorderSizePixel = 0
+plr.Position = UDim2.new(0.0233333334, 0, 0.629999995, 0)
+plr.Size = UDim2.new(0.333333343, 0, 0.144999996, 0)
+plr.Font = Enum.Font.SourceSans
+plr.PlaceholderText = "Quem"
+plr.Text = "Quem"
+plr.TextColor3 = Color3.fromRGB(255, 255, 255)
+plr.TextScaled = true
+plr.TextSize = 14.000
+plr.TextWrapped = true
+
+Botao5.Name = "Botao5"
+Botao5.Parent = Frame
+Botao5.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Botao5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Botao5.BorderSizePixel = 0
+Botao5.Position = UDim2.new(0.106813461, 0, 0.264999986, 0)
+Botao5.Size = UDim2.new(0.333333343, 0, 0.155000001, 0)
+Botao5.Font = Enum.Font.SourceSans
+Botao5.Text = "Bugar Servidor"
+Botao5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Botao5.TextScaled = true
+Botao5.TextSize = 14.000
+Botao5.TextWrapped = true
 
 -- Scripts:
 
-local function KJJCRU_fake_script() -- Screen.LocalScript 
-	local script = Instance.new('LocalScript', Screen)
+local function DSUPYG_fake_script() -- SCpl.MainSC 
+	local script = Instance.new('LocalScript', SCpl)
 
+	local framebase = script.Parent:WaitForChild("Frame")
+	local botao1 = framebase:WaitForChild("Botao1")
+	framebase.Active = true
+	framebase.Draggable = true
 	--
-	script.Parent.reddyneocaralho.Musica.MouseButton1Down:Connect(function()
-	    local sound = true 
-		local ID = "rbxassetid://"..script.Parent.reddyneocaralho.TextBox.Text 
-		local Name = "Ambiente" 
-		local Volume = 100 
-		local Pitch = 1 
-	
-		for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
-			if v:IsA("RemoteEvent") and v.Name == "AC6_FE_Sounds" then
-				if sound == true then
-					v:FireServer("newSound", Name, workspace, ID, Pitch, Volume, true)
-					v:FireServer("playSound", Name)
-				end 
-	
-				if sound == false then
-					v:FireServer("stopSound", Name)
+	for i, v in pairs(framebase:GetChildren()) do
+		if v:IsA("TextButton")  then
+			v.MouseEnter:Connect(function()
+			  framebase.BotaoDesc.Visible = true
+			  if v.Name == "Botao1" then
+					framebase.BotaoDesc.TextLabel.Text = "Se houver um painel de votação dentro da casa onde se pode adicionar e remover votos, ao pressionar este botão você possuirá o acesso que apenas produtores possuem"
+			  elseif v.Name == "Botao2" then
+					framebase.BotaoDesc.TextLabel.Text = "Tenha acesso ao painel exclusivo dos produtores e controle as musicas do servidor"
+			  elseif v.Name == "Botao3" then
+					framebase.BotaoDesc.TextLabel.Text = "Envie uma mensagem ao servidor xD"
+			  elseif v.Name == "Botao4" then
+					framebase.BotaoDesc.TextLabel.Text = "Se estiver acontecendo uma votação no jogo, coloque o nick do player que você deseja colocar muitos votos e spamme o botão xD"
+				elseif v.Name == "Botao5" then
+					framebase.BotaoDesc.TextLabel.Text = "Tente procurar as vulnerabilidades do jogo, caso seja achado será tudo executado"
 				end
-			end
+			  
+			  v.MouseLeave:Connect(function()
+					framebase.BotaoDesc.Visible = false
+			  end)
+			end)
 		end
+	end
+	--
+	local debounce1 = true
+	local debounce2 = true
+	for i, v in pairs(framebase:GetChildren()) do
+		if v:IsA("TextButton") then
+			v.MouseButton1Click:Connect(function()
+				if v.Name == "Botao1" then
+					local localname = game.Players.LocalPlayer.Name
 	
-	end)
-	--
-	script.Parent.reddyneocaralho.Lag.MouseButton1Click:Connect(function()
-		
-	end)
-	--
+					for i, v in pairs(game.Players[localname].PlayerGui.ScreenGui:GetChildren()) do
+						if v:IsA("Frame") then
+							v.Visible = debounce1
+							game.Players[localname].PlayerGui.ScreenGui.Frame.Visible = debounce1
+							debounce1 = not debounce1
+						end
+					end
+				elseif v.Name == "Botao2" then
+					local localname = game.Players.LocalPlayer.Name
+	
+					for i, v in pairs(game.Players[localname].PlayerGui.Musicas:GetChildren()) do
+						if v:IsA("Frame") then
+							v.Visible = debounce2
+							debounce2 = not debounce2
+						end	
+					end
+					
+				elseif v.Name == "Botao3" then
+					if game.ReplicatedStorage:FindFirstChild("Mensagem") then
+						local evento = game.ReplicatedStorage:WaitForChild("Mensagem")
+						evento:FireServer(framebase.msg.Text, "fuckniggas", game.CreatorId)
+					elseif game.ReplicatedStorage:FindFirstChild("Apresentador") then
+						local evento = game.ReplicatedStorage:WaitForChild("Apresentador")
+						evento:FireServer(framebase.msg.Text, "fuckniggas", game.CreatorId)
+					end
+					
+					
+				elseif v.Name == "Botao4" then
+					if game.ReplicatedStorage:FindFirstChild("Voto") then
+						local EV = game.ReplicatedStorage.Voto
+						while wait(0.1) do
+							EV:FireServer(framebase.plr.Text)
+						end
+					elseif game.ReplicatedStorage:FindFirstChild("votacao_para_ficar") then
+						local EV = game.ReplicatedStorage.votacao_para_ficar
+						while wait(0.1) do
+							EV:FireServer(framebase.plr.Text)
+						end
+					elseif game.ReplicatedStorage:FindFirstChild("Votar") then
+						local EV = game.ReplicatedStorage.votacao_para_ficar
+						while wait(0.1) do
+							EV:InvokeServer(framebase.plr.Text)
+						end
+					end
+				elseif v.Name == "Botao5" then
+					if game.ReplicatedStorage:FindFirstChild("Iniciar") then
+						game.ReplicatedStorage.Iniciar:FireServer()
+					end
+				end
+				
+				
+			end)
+			end
+	end
+	
+	
 end
-coroutine.wrap(KJJCRU_fake_script)()
+coroutine.wrap(DSUPYG_fake_script)()
