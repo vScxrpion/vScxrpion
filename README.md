@@ -1,1 +1,311 @@
-local g = Instance.new("\83\99\114\101\101\110\71\117\105") local h = Instance.new("\70\114\97\109\101") local o = Instance.new("\84\101\120\116\66\117\116\116\111\110") local n = Instance.new("\84\101\120\116\76\97\98\101\108") local e = Instance.new("\70\114\97\109\101") local p = Instance.new("\84\101\120\116\76\97\98\101\108") local i = Instance.new("\84\101\120\116\66\117\116\116\111\110") local t = Instance.new("\84\101\120\116\76\97\98\101\108") local j = Instance.new("\84\101\120\116\66\117\116\116\111\110") local l = Instance.new("\84\101\120\116\66\111\120") local f = Instance.new("\84\101\120\116\66\117\116\116\111\110") local r = Instance.new("\84\101\120\116\66\111\120") local c = Instance.new("\84\101\120\116\66\117\116\116\111\110") local d = Instance.new("\84\101\120\116\66\117\116\116\111\110") g.Name = "\83\67\112\108" g.Parent = game.Players.LocalPlayer:WaitForChild("\80\108\97\121\101\114\71\117\105") g.ZIndexBehavior = Enum.ZIndexBehavior.Sibling h.Parent = g h.BackgroundColor3 = Color3.fromRGB(53, 53, 53) h.BackgroundTransparency = 0.450 h.BorderColor3 = Color3.fromRGB(255, 0, 0) h.BorderSizePixel = 2 h.Position = UDim2.new(0.367843747, 0, 0.293388426, 0) h.Size = UDim2.new(0.263852239, 0, 0.413223147, 0) o.Name = "\66\111\116\97\111\49" o.Parent = h o.BackgroundColor3 = Color3.fromRGB(255, 0, 0) o.BorderColor3 = Color3.fromRGB(0, 0, 0) o.BorderSizePixel = 0 o.Position = UDim2.new(0.109999999, 0, 0.0599999987, 0) o.Size = UDim2.new(0.333333343, 0, 0.155000001, 0) o.Font = Enum.Font.SourceSans o.Text = "\86\111\116\111\115\32\73\110\116\101\114\110\111\115" o.TextColor3 = Color3.fromRGB(255, 255, 255) o.TextScaled = true o.TextSize = 14.000 o.TextWrapped = true n.Parent = h n.BackgroundColor3 = Color3.fromRGB(255, 255, 255) n.BackgroundTransparency = 1.000 n.BorderColor3 = Color3.fromRGB(0, 0, 0) n.BorderSizePixel = 0 n.Position = UDim2.new(0.186666667, 0, -0.25, 0) n.Size = UDim2.new(0.666666687, 0, 0.25, 0) n.Font = Enum.Font.SourceSans n.Text = "\82\101\100\100\121\110\32\70\117\99\107\101\114\32\120\68\32\118\48\46\49" n.TextColor3 = Color3.fromRGB(255, 255, 255) n.TextScaled = true n.TextSize = 14.000 n.TextStrokeTransparency = 0.000 n.TextWrapped = true n.TextYAlignment = Enum.TextYAlignment.Bottom e.Name = "\66\111\116\97\111\68\101\115\99" e.Parent = h e.BackgroundColor3 = Color3.fromRGB(53, 53, 53) e.BorderColor3 = Color3.fromRGB(0, 0, 0) e.BorderSizePixel = 0 e.Position = UDim2.new(1.08333337, 0, 0, 0) e.Size = UDim2.new(0.720000029, 0, 0.610000014, 0) e.Visible = false p.Parent = e p.BackgroundColor3 = Color3.fromRGB(255, 255, 255) p.BackgroundTransparency = 1.000 p.BorderColor3 = Color3.fromRGB(0, 0, 0) p.BorderSizePixel = 0 p.Size = UDim2.new(1, 0, 1, 0) p.Font = Enum.Font.SourceSans p.TextColor3 = Color3.fromRGB(255, 0, 0) p.TextScaled = true p.TextSize = 14.000 p.TextWrapped = true p.TextXAlignment = Enum.TextXAlignment.Left i.Name = "\66\111\116\97\111\50" i.Parent = h i.BackgroundColor3 = Color3.fromRGB(255, 0, 0) i.BorderColor3 = Color3.fromRGB(0, 0, 0) i.BorderSizePixel = 0 i.Position = UDim2.new(0.553333342, 0, 0.0599999987, 0) i.Size = UDim2.new(0.333333343, 0, 0.155000001, 0) i.Font = Enum.Font.SourceSans i.Text = "\77\117\115\105\99\97\115" i.TextColor3 = Color3.fromRGB(255, 255, 255) i.TextScaled = true i.TextSize = 14.000 i.TextWrapped = true t.Parent = h t.BackgroundColor3 = Color3.fromRGB(255, 255, 255) t.BackgroundTransparency = 1.000 t.BorderColor3 = Color3.fromRGB(0, 0, 0) t.BorderSizePixel = 0 t.Position = UDim2.new(0, 0, 1, 0) t.Size = UDim2.new(1, 0, 0.25, 0) t.Font = Enum.Font.SourceSans t.Text = "\70\101\105\116\111\32\112\111\114\32\47\32\77\97\100\101\32\98\121\58\32\64\118\115\99\120\114\112\105\111\110\32\45\62\32\68\105\115\99\111\114\100" t.TextColor3 = Color3.fromRGB(255, 255, 255) t.TextScaled = true t.TextSize = 14.000 t.TextStrokeTransparency = 0.000 t.TextWrapped = true t.TextYAlignment = Enum.TextYAlignment.Top j.Name = "\66\111\116\97\111\51" j.Parent = h j.BackgroundColor3 = Color3.fromRGB(255, 0, 0) j.BorderColor3 = Color3.fromRGB(0, 0, 0) j.BorderSizePixel = 0 j.Position = UDim2.new(0.646666646, 0, 0.814999998, 0) j.Size = UDim2.new(0.333333343, 0, 0.155000001, 0) j.Font = Enum.Font.SourceSans j.Text = "\69\110\118\105\97\114\32\109\101\110\115\97\103\101\109\32\97\111\32\115\101\114\118\105\100\111\114" j.TextColor3 = Color3.fromRGB(255, 255, 255) j.TextScaled = true j.TextSize = 14.000 j.TextWrapped = true l.Name = "\109\115\103" l.Parent = h l.BackgroundColor3 = Color3.fromRGB(68, 68, 68) l.BorderColor3 = Color3.fromRGB(0, 0, 0) l.BorderSizePixel = 0 l.Position = UDim2.new(0.646666646, 0, 0.629999995, 0) l.Size = UDim2.new(0.333333343, 0, 0.144999996, 0) l.Font = Enum.Font.SourceSans l.PlaceholderText = "\77\101\110\115\97\103\101\109" l.Text = "\77\101\110\115\97\103\101\109" l.TextColor3 = Color3.fromRGB(255, 255, 255) l.TextScaled = true l.TextSize = 14.000 l.TextWrapped = true f.Name = "\66\111\116\97\111\52" f.Parent = h f.BackgroundColor3 = Color3.fromRGB(255, 0, 0) f.BorderColor3 = Color3.fromRGB(0, 0, 0) f.BorderSizePixel = 0 f.Position = UDim2.new(0.0233333334, 0, 0.814999998, 0) f.Size = UDim2.new(0.333333343, 0, 0.155000001, 0) f.Font = Enum.Font.SourceSans f.Text = "\77\117\105\116\111\115\32\86\111\116\111\115" f.TextColor3 = Color3.fromRGB(255, 255, 255) f.TextScaled = true f.TextSize = 14.000 f.TextWrapped = true r.Name = "\112\108\114" r.Parent = h r.BackgroundColor3 = Color3.fromRGB(68, 68, 68) r.BorderColor3 = Color3.fromRGB(0, 0, 0) r.BorderSizePixel = 0 r.Position = UDim2.new(0.0233333334, 0, 0.629999995, 0) r.Size = UDim2.new(0.333333343, 0, 0.144999996, 0) r.Font = Enum.Font.SourceSans r.PlaceholderText = "\81\117\101\109" r.Text = "\81\117\101\109" r.TextColor3 = Color3.fromRGB(255, 255, 255) r.TextScaled = true r.TextSize = 14.000 r.TextWrapped = true c.Name = "\66\111\116\97\111\53" c.Parent = h c.BackgroundColor3 = Color3.fromRGB(255, 0, 0) c.BorderColor3 = Color3.fromRGB(0, 0, 0) c.BorderSizePixel = 0 c.Position = UDim2.new(0.106813461, 0, 0.264999986, 0) c.Size = UDim2.new(0.333333343, 0, 0.155000001, 0) c.Font = Enum.Font.SourceSans c.Text = "\66\117\103\97\114\32\83\101\114\118\105\100\111\114" c.TextColor3 = Color3.fromRGB(255, 255, 255) c.TextScaled = true c.TextSize = 14.000 c.TextWrapped = true d.Name = "\111\110\111\102\102" d.Parent = g d.BackgroundColor3 = Color3.fromRGB(53, 53, 53) d.BorderColor3 = Color3.fromRGB(255, 0, 0) d.BorderSizePixel = 2 d.Position = UDim2.new(0.189094231, 0, 0.0247933883, 0) d.Size = UDim2.new(0.0291005298, 0, 0.0495867766, 0) d.Font = Enum.Font.SourceSans d.Text = "\45" d.TextColor3 = Color3.fromRGB(255, 255, 255) d.TextScaled = true d.TextSize = 14.000 d.TextStrokeTransparency = 0.000 d.TextWrapped = true local function a()  local s = Instance.new('LocalScript', g) local b = s.Parent:WaitForChild("\70\114\97\109\101") local k = b:WaitForChild("\66\111\116\97\111\49") b.Active = true b.Draggable = true local m = s.Parent.onoff m.Active = true m.Draggable = true local _ = true m.MouseButton1Click:Connect(function() if _ == true then _ = not _ b.Visible = false m.Text = "\43" elseif _ == false then _ = not _ b.Visible = true m.Text = "\45" end end) -- for i, v in pairs(b:GetChildren()) do if v:IsA("\84\101\120\116\66\117\116\116\111\110")  then v.MouseEnter:Connect(function() b.BotaoDesc.Visible = true if v.Name == "\66\111\116\97\111\49" then b.BotaoDesc.TextLabel.Text = "\83\101\32\104\111\117\118\101\114\32\117\109\32\112\97\105\110\101\108\32\100\101\32\118\111\116\97\195\167\195\163\111\32\100\101\110\116\114\111\32\100\97\32\99\97\115\97\32\111\110\100\101\32\115\101\32\112\111\100\101\32\97\100\105\99\105\111\110\97\114\32\101\32\114\101\109\111\118\101\114\32\118\111\116\111\115\44\32\97\111\32\112\114\101\115\115\105\111\110\97\114\32\101\115\116\101\32\98\111\116\195\163\111\32\118\111\99\195\170\32\112\111\115\115\117\105\114\195\161\32\111\32\97\99\101\115\115\111\32\113\117\101\32\97\112\101\110\97\115\32\112\114\111\100\117\116\111\114\101\115\32\112\111\115\115\117\101\109" elseif v.Name == "\66\111\116\97\111\50" then b.BotaoDesc.TextLabel.Text = "\84\101\110\104\97\32\97\99\101\115\115\111\32\97\111\32\112\97\105\110\101\108\32\101\120\99\108\117\115\105\118\111\32\100\111\115\32\112\114\111\100\117\116\111\114\101\115\32\101\32\99\111\110\116\114\111\108\101\32\97\115\32\109\117\115\105\99\97\115\32\100\111\32\115\101\114\118\105\100\111\114" elseif v.Name == "\66\111\116\97\111\51" then b.BotaoDesc.TextLabel.Text = "\69\110\118\105\101\32\117\109\97\32\109\101\110\115\97\103\101\109\32\97\111\32\115\101\114\118\105\100\111\114\32\120\68" elseif v.Name == "\66\111\116\97\111\52" then b.BotaoDesc.TextLabel.Text = "\83\101\32\101\115\116\105\118\101\114\32\97\99\111\110\116\101\99\101\110\100\111\32\117\109\97\32\118\111\116\97\195\167\195\163\111\32\110\111\32\106\111\103\111\44\32\99\111\108\111\113\117\101\32\111\32\110\105\99\107\32\100\111\32\112\108\97\121\101\114\32\113\117\101\32\118\111\99\195\170\32\100\101\115\101\106\97\32\99\111\108\111\99\97\114\32\109\117\105\116\111\115\32\118\111\116\111\115\32\101\32\115\112\97\109\109\101\32\111\32\98\111\116\195\163\111\32\120\68" elseif v.Name == "\66\111\116\97\111\53" then b.BotaoDesc.TextLabel.Text = "\84\101\110\116\101\32\112\114\111\99\117\114\97\114\32\97\115\32\118\117\108\110\101\114\97\98\105\108\105\100\97\100\101\115\32\100\111\32\106\111\103\111\44\32\99\97\115\111\32\115\101\106\97\32\97\99\104\97\100\111\32\115\101\114\195\161\32\116\117\100\111\32\101\120\101\99\117\116\97\100\111" end v.MouseLeave:Connect(function() b.BotaoDesc.Visible = false end) end) end end -- local a_ = true local ga = true for i, v in pairs(b:GetChildren()) do if v:IsA("\84\101\120\116\66\117\116\116\111\110") then v.MouseButton1Click:Connect(function() if v.Name == "\66\111\116\97\111\49" then local oh = game.Players.LocalPlayer.Name for i, v in pairs(game.Players[oh].PlayerGui.ScreenGui:GetChildren()) do if v:IsA("\70\114\97\109\101") then v.Visible = a_ game.Players[oh].PlayerGui.ScreenGui.Frame.Visible = true a_ = not a_ end end elseif v.Name == "\66\111\116\97\111\50" then local oh = game.Players.LocalPlayer.Name for i, v in pairs(game.Players[oh].PlayerGui.Musicas:GetChildren()) do if v:IsA("\70\114\97\109\101") then v.Visible = ga ga = not ga end  end elseif v.Name == "\66\111\116\97\111\51" then if game.ReplicatedStorage:FindFirstChild("\77\101\110\115\97\103\101\109") then local en = game.ReplicatedStorage:WaitForChild("\77\101\110\115\97\103\101\109") en:FireServer(b.msg.Text, "\102\117\99\107\110\105\103\103\97\115", game.CreatorId) elseif game.ReplicatedStorage:FindFirstChild("\65\112\114\101\115\101\110\116\97\100\111\114") then local en = game.ReplicatedStorage:WaitForChild("\65\112\114\101\115\101\110\116\97\100\111\114") en:FireServer(b.msg.Text, "\102\117\99\107\110\105\103\103\97\115", game.CreatorId) end elseif v.Name == "\66\111\116\97\111\52" then if game.ReplicatedStorage:FindFirstChild("\86\111\116\111") then local ti = game.ReplicatedStorage.Voto while wait(0.1) do ti:FireServer(b.plr.Text) end elseif game.ReplicatedStorage:FindFirstChild("\118\111\116\97\99\97\111\95\112\97\114\97\95\102\105\99\97\114") then local ti = game.ReplicatedStorage.votacao_para_ficar while wait(0.1) do ti:FireServer(b.plr.Text) end elseif game.ReplicatedStorage:FindFirstChild("\86\111\116\97\114") then local ti = game.ReplicatedStorage.votacao_para_ficar while wait(0.1) do ti:InvokeServer(b.plr.Text) end end elseif v.Name == "\66\111\116\97\111\53" then if game.ReplicatedStorage:FindFirstChild("\73\110\105\99\105\97\114") then game.ReplicatedStorage.Iniciar:FireServer() end end end) end end end coroutine.wrap(a)()
+local SCpl = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Botao1 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local BotaoDesc = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Botao2 = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local Botao3 = Instance.new("TextButton")
+local msg = Instance.new("TextBox")
+local Botao4 = Instance.new("TextButton")
+local plr = Instance.new("TextBox")
+local Botao5 = Instance.new("TextButton")
+local onoff = Instance.new("TextButton")
+SCpl.Name = "SCpl"
+SCpl.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SCpl.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = SCpl
+Frame.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Frame.BackgroundTransparency = 0.450
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(0.367843747, 0, 0.293388426, 0)
+Frame.Size = UDim2.new(0.263852239, 0, 0.413223147, 0)
+
+Botao1.Name = "Botao1"
+Botao1.Parent = Frame
+Botao1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Botao1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Botao1.BorderSizePixel = 0
+Botao1.Position = UDim2.new(0.109999999, 0, 0.0599999987, 0)
+Botao1.Size = UDim2.new(0.333333343, 0, 0.155000001, 0)
+Botao1.Font = Enum.Font.SourceSans
+Botao1.Text = "Votos Internos"
+Botao1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Botao1.TextScaled = true
+Botao1.TextSize = 14.000
+Botao1.TextWrapped = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.186666667, 0, -0.25, 0)
+TextLabel.Size = UDim2.new(0.666666687, 0, 0.25, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Reddyn Fucker xD v0.1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeTransparency = 0.000
+TextLabel.TextWrapped = true
+TextLabel.TextYAlignment = Enum.TextYAlignment.Bottom
+
+BotaoDesc.Name = "BotaoDesc"
+BotaoDesc.Parent = Frame
+BotaoDesc.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+BotaoDesc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BotaoDesc.BorderSizePixel = 0
+BotaoDesc.Position = UDim2.new(1.08333337, 0, 0, 0)
+BotaoDesc.Size = UDim2.new(0.720000029, 0, 0.610000014, 0)
+BotaoDesc.Visible = false
+
+TextLabel_2.Parent = BotaoDesc
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Botao2.Name = "Botao2"
+Botao2.Parent = Frame
+Botao2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Botao2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Botao2.BorderSizePixel = 0
+Botao2.Position = UDim2.new(0.553333342, 0, 0.0599999987, 0)
+Botao2.Size = UDim2.new(0.333333343, 0, 0.155000001, 0)
+Botao2.Font = Enum.Font.SourceSans
+Botao2.Text = "Musicas"
+Botao2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Botao2.TextScaled = true
+Botao2.TextSize = 14.000
+Botao2.TextWrapped = true
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 1, 0)
+TextLabel_3.Size = UDim2.new(1, 0, 0.25, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Feito por / Made by: @vscxrpion -> Discord"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextStrokeTransparency = 0.000
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextYAlignment = Enum.TextYAlignment.Top
+
+Botao3.Name = "Botao3"
+Botao3.Parent = Frame
+Botao3.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Botao3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Botao3.BorderSizePixel = 0
+Botao3.Position = UDim2.new(0.646666646, 0, 0.814999998, 0)
+Botao3.Size = UDim2.new(0.333333343, 0, 0.155000001, 0)
+Botao3.Font = Enum.Font.SourceSans
+Botao3.Text = "Enviar mensagem ao servidor"
+Botao3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Botao3.TextScaled = true
+Botao3.TextSize = 14.000
+Botao3.TextWrapped = true
+
+msg.Name = "msg"
+msg.Parent = Frame
+msg.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+msg.BorderColor3 = Color3.fromRGB(0, 0, 0)
+msg.BorderSizePixel = 0
+msg.Position = UDim2.new(0.646666646, 0, 0.629999995, 0)
+msg.Size = UDim2.new(0.333333343, 0, 0.144999996, 0)
+msg.Font = Enum.Font.SourceSans
+msg.PlaceholderText = "Mensagem"
+msg.Text = "Mensagem"
+msg.TextColor3 = Color3.fromRGB(255, 255, 255)
+msg.TextScaled = true
+msg.TextSize = 14.000
+msg.TextWrapped = true
+
+Botao4.Name = "Botao4"
+Botao4.Parent = Frame
+Botao4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Botao4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Botao4.BorderSizePixel = 0
+Botao4.Position = UDim2.new(0.0233333334, 0, 0.814999998, 0)
+Botao4.Size = UDim2.new(0.333333343, 0, 0.155000001, 0)
+Botao4.Font = Enum.Font.SourceSans
+Botao4.Text = "Muitos Votos"
+Botao4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Botao4.TextScaled = true
+Botao4.TextSize = 14.000
+Botao4.TextWrapped = true
+
+plr.Name = "plr"
+plr.Parent = Frame
+plr.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+plr.BorderColor3 = Color3.fromRGB(0, 0, 0)
+plr.BorderSizePixel = 0
+plr.Position = UDim2.new(0.0233333334, 0, 0.629999995, 0)
+plr.Size = UDim2.new(0.333333343, 0, 0.144999996, 0)
+plr.Font = Enum.Font.SourceSans
+plr.PlaceholderText = "Quem"
+plr.Text = "Quem"
+plr.TextColor3 = Color3.fromRGB(255, 255, 255)
+plr.TextScaled = true
+plr.TextSize = 14.000
+plr.TextWrapped = true
+
+Botao5.Name = "Botao5"
+Botao5.Parent = Frame
+Botao5.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Botao5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Botao5.BorderSizePixel = 0
+Botao5.Position = UDim2.new(0.106813461, 0, 0.264999986, 0)
+Botao5.Size = UDim2.new(0.333333343, 0, 0.155000001, 0)
+Botao5.Font = Enum.Font.SourceSans
+Botao5.Text = "Bugar Servidor"
+Botao5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Botao5.TextScaled = true
+Botao5.TextSize = 14.000
+Botao5.TextWrapped = true
+
+onoff.Name = "onoff"
+onoff.Parent = SCpl
+onoff.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+onoff.BorderColor3 = Color3.fromRGB(255, 0, 0)
+onoff.BorderSizePixel = 2
+onoff.Position = UDim2.new(0.189094231, 0, 0.0247933883, 0)
+onoff.Size = UDim2.new(0.0291005298, 0, 0.0495867766, 0)
+onoff.Font = Enum.Font.SourceSans
+onoff.Text = "-"
+onoff.TextColor3 = Color3.fromRGB(255, 255, 255)
+onoff.TextScaled = true
+onoff.TextSize = 14.000
+onoff.TextStrokeTransparency = 0.000
+onoff.TextWrapped = true
+
+-- Scripts:
+
+local function EQCOAAA_fake_script() -- SCpl.MainSC 
+	local script = Instance.new('LocalScript', SCpl)
+
+	local framebase = script.Parent:WaitForChild("Frame")
+	local botao1 = framebase:WaitForChild("Botao1")
+	framebase.Active = true
+	framebase.Draggable = true
+	local minbutton = script.Parent.onoff
+	minbutton.Active = true
+	minbutton.Draggable = true
+	local db1 = true
+	minbutton.MouseButton1Click:Connect(function()
+		if db1 == true then
+			db1 = not db1
+			framebase.Visible = false
+			minbutton.Text = "+"
+		elseif db1 == false then
+			db1 = not db1
+			framebase.Visible = true
+		minbutton.Text = "-"
+		end
+	end)
+	--
+	for i, v in pairs(framebase:GetChildren()) do
+		if v:IsA("TextButton")  then
+			v.MouseEnter:Connect(function()
+			  framebase.BotaoDesc.Visible = true
+			  if v.Name == "Botao1" then
+					framebase.BotaoDesc.TextLabel.Text = "Se houver um painel de votação dentro da casa onde se pode adicionar e remover votos, ao pressionar este botão você possuirá o acesso que apenas produtores possuem"
+			  elseif v.Name == "Botao2" then
+					framebase.BotaoDesc.TextLabel.Text = "Tenha acesso ao painel exclusivo dos produtores e controle as musicas do servidor"
+			  elseif v.Name == "Botao3" then
+					framebase.BotaoDesc.TextLabel.Text = "Envie uma mensagem ao servidor xD"
+			  elseif v.Name == "Botao4" then
+					framebase.BotaoDesc.TextLabel.Text = "Se estiver acontecendo uma votação no jogo, coloque o nick do player que você deseja colocar muitos votos e spamme o botão xD"
+				elseif v.Name == "Botao5" then
+					framebase.BotaoDesc.TextLabel.Text = "Tente procurar as vulnerabilidades do jogo, caso seja achado será tudo executado"
+				end
+			  
+			  v.MouseLeave:Connect(function()
+					framebase.BotaoDesc.Visible = false
+			  end)
+			end)
+		end
+	end
+	--
+	local debounce1 = true
+	local debounce2 = true
+	for i, v in pairs(framebase:GetChildren()) do
+		if v:IsA("TextButton") then
+			v.MouseButton1Click:Connect(function()
+				if v.Name == "Botao1" then
+					local localname = game.Players.LocalPlayer.Name
+	
+					for i, v in pairs(game.Players[localname].PlayerGui.ScreenGui:GetChildren()) do
+						if v:IsA("Frame") then
+							v.Visible = debounce1
+							game.Players[localname].PlayerGui.ScreenGui.Frame.Visible = true
+							debounce1 = not debounce1
+						end
+					end
+				elseif v.Name == "Botao2" then
+					local localname = game.Players.LocalPlayer.Name
+	
+					for i, v in pairs(game.Players[localname].PlayerGui.Musicas:GetChildren()) do
+						if v:IsA("Frame") then
+							v.Visible = debounce2
+							debounce2 = not debounce2
+						end	
+					end
+					
+				elseif v.Name == "Botao3" then
+					if game.ReplicatedStorage:FindFirstChild("Mensagem") then
+						local evento = game.ReplicatedStorage:WaitForChild("Mensagem")
+						evento:FireServer(framebase.msg.Text, "fuckniggas", game.CreatorId)
+					elseif game.ReplicatedStorage:FindFirstChild("Apresentador") then
+						local evento = game.ReplicatedStorage:WaitForChild("Apresentador")
+						evento:FireServer(framebase.msg.Text, "fuckniggas", game.CreatorId)
+					end
+					
+					
+				elseif v.Name == "Botao4" then
+					if game.ReplicatedStorage:FindFirstChild("Voto") then
+						local EV = game.ReplicatedStorage.Voto
+						while wait(0.1) do
+							EV:FireServer(framebase.plr.Text)
+						end
+					elseif game.ReplicatedStorage:FindFirstChild("votacao_para_ficar") then
+						local EV = game.ReplicatedStorage.votacao_para_ficar
+						while wait(0.1) do
+							EV:FireServer(framebase.plr.Text)
+						end
+					elseif game.ReplicatedStorage:FindFirstChild("Votar") then
+						local EV = game.ReplicatedStorage.votacao_para_ficar
+						while wait(0.1) do
+							EV:InvokeServer(framebase.plr.Text)
+						end
+					end
+				elseif v.Name == "Botao5" then
+					if game.ReplicatedStorage:FindFirstChild("Iniciar") then
+						game.ReplicatedStorage.Iniciar:FireServer()
+					end
+					
+				end
+				
+				
+				
+			end)
+			end
+	end
+	
+	
+end
+coroutine.wrap(EQCOAAA_fake_script)()
